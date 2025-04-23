@@ -53,9 +53,13 @@ nav{
 }
 
 #cv{
-    border: 2px var(--accent) solid;
+    border: 2px var(--secondary) solid;
     border-radius: 10px;
     padding: 10px;
+}
+
+#cv:hover{
+    border: 2px var(--accent) solid;
 }
 
 .active-element{
@@ -67,7 +71,7 @@ nav{
 #home-section{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 50px;
     justify-content: center;
     align-items: center;
@@ -76,19 +80,21 @@ nav{
     max-height: 700px;
     padding: 20px;
     height: auto;
+    flex-wrap: wrap;
+    margin-top: 120px;
 }
 
 #portrait{
     height: 70%;
     width: 100%;
-    min-width: 200px;
+    min-width: 300px;
     max-width: 600px;
     min-height: 300px;
     max-height: 800px;
     object-fit: cover;
     border: 2px var(--secondary) solid;
     flex: 3;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 #about-container{
@@ -103,15 +109,17 @@ nav{
 }
 
 #about-content{
+    display: flex;
     min-height: 500px;
+    align-items: center;
 }
 
 #about-text{
-    border-left: 2px var(--secondary) solid;
     padding: 10px;
-    width: 70%;
+    width: 100%;
     min-width: 200px;
     box-sizing: border-box;
+    border-left: 2px var(--secondary) solid;
 }
 
 /* Responsiveness */
