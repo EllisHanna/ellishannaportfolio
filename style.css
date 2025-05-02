@@ -308,6 +308,10 @@ nav{
         padding-bottom: 150px;
     }
 
+    #project-container{
+        padding: 50px;
+    }
+
     .project {
         flex-direction: column !important;
         height: auto;
