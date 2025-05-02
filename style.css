@@ -307,4 +307,30 @@ nav{
     #home-section, #technologies-section{
         padding-bottom: 150px;
     }
+
+    .project {
+        flex-direction: column !important;
+        height: auto;
+        max-height: 700px;
+    }
+    
+    .project-img-container {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        overflow: hidden;
+    }
+    
+    .project-img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .project-img-container,
+    .project-img {
+        box-sizing: border-box;
+    }
 }
