@@ -263,10 +263,19 @@ nav{
     height: 100%;
 }
 
-.project-buttons{
+.project-buttons {
+    display: flex;
+    gap: 10px;
     width: 100%;
 }
 
+.project-buttons a {
+    width: 50%;
+}
+
+.project-buttons a button {
+    width: 100%;
+}
 .used-technologies{
     display: flex;
     flex-direction: row;
@@ -286,6 +295,12 @@ nav{
 
 .sql-used{
     max-width: 40px;
+}
+
+.cpp-used{
+    max-height: 50px;
+    max-width: 40px;
+    padding-right: 10px;
 }
 
 .left{
@@ -310,6 +325,21 @@ nav{
 
     #home-section, #technologies-section{
         padding-bottom: 150px;
+    }
+
+    .technology{
+        width: 15%;
+        height: 15%;
+    }
+
+    .technologies-img{
+        height: 50px;
+        width: 50px;
+    }
+
+    #technologies-content{
+        gap: 50px;
+        width: 100%;
     }
 
     #project-container{
